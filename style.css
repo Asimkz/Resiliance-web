@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+/*header*/
+.modal-dialog {
+   margin: 0px;
+   width: 400px;
+}
+
+@media (max-width: 1399.576px) {
+   .modal-dialog {
+      width: 300px;
+   }
+}
+
+@media (max-width: 576.98px) {
+   .modal-dialog {
+      width: 200px;
+
+   }
+
+}
+
+.modal-content {
+   border-radius: 30px;
+   height: 100%;
+   background-color: #262625;
+
+}
+
+.modal-header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   padding-bottom: 30px;
+   margin: auto;
+   border-bottom: 2px solid white;
+}
+
+.modal-header img {
+   width: 50%;
+   height: 100%;
+   margin-top: 12px;
+}
+
+.modal-header .btn-close {
+   background: transparent;
+   opacity: 1;
+}
+
+.modal-header i {
+   color: white;
+   font-size: larger;
+}
+
+.model-body {
+   width: 88%;
+   margin: 0, auto;
+   padding: 75px 0 0 0;
+   flex: unset;
+}
+
+.modal-body .modal-line {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding-left: 7px;
+   margin-bottom: 50px;
+   cursor: pointer;
+   transition: all .2s ease;
+   color: rgb(140, 138, 138);
+   border-bottom: 1px solid rgb(149, 148, 148);
+}
+
+.modal-body .modal-line:hover {
+   color: white;
+   border-bottom: 2px solid white;
+}
+
+.modal-line a {
+   text-decoration: none;
+   color: white;
+   font-size: medium;
+   letter-spacing: 2px;
+}
+
+.modal-line i {
+   font-size: 20px;
+
+}
+
+.modal-footer {
+   width: 100%;
+   padding-top: 30px;
+   margin: auto;
+   border-top: 2px solid white;
+}
+
+/*                    baner                   */
+.invetation {
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+
+}
+
+.banner-section {
+   background-image: url('images/Layer\ 123.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: auto;
+   /* Adjust the height as needed */
+   display: flex;
+   align-items: center;
+}
+
+.ban-txt {
+   color: white;
+   text-align: center;
+   font-size: 32px;
+   /* Adjust the font size as needed */
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+   border-left: 2px solid white;
+   border-right: 2px solid white;
+   padding: 1px;
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+   text-align: center;
+   font-size: 32px;
+   background-color: rgba(48, 48, 48, 0.452);
+
+}
+
+
+.img-caption {
+   letter-spacing: 20px;
+   font-family: 'Maven Pro', sans-serif;
+   margin: 0px;
+}
+
+.img-caption-3 {
+   letter-spacing: 10px;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+   .banner-section {
+      background-image: url('images/Layer\ 123.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      /* Adjust the height as needed */
+
+   }
+}
+
+@media (max-width: 1399.767px) {
+   .banner-section {
+      background-image: url('images/Layer\ 123.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 48vh;
+      /* Adjust the height as needed */
+      display: flex;
+      align-items: center;
+   }
+}
+
+/*                   third-section                 */
+.third-section-txt {
+   margin: 70px;
+
+}
+
+.third-section-txt h1 {
+   font-family: 'Maven Pro', sans-serif;
+
+}
+
+/*                   forth-section                 */
+.video-box video {
+   max-width: 100%;
+   height: auto;
+
+}
+
+.vedio-txt-section {
+   background-color: #d2ccbf;
+}
+
+/*                   fifth-section               */
+.invetation {
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+
+}
+
+.fifth-section {
+   background-image: url('images/mission-bg.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: auto;
+   /* Adjust the height as needed */
+   display: flex;
+   align-items: center;
+}
+
+.ban-txt-2 {
+   color: white;
+   text-align: center;
+   font-size: 32px;
+   /* Adjust the font size as needed */
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+   border-left: 2px solid white;
+   border-right: 2px solid white;
+   padding: 10px;
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+   text-align: center;
+   font-size: 32px;
+   background-color: rgba(48, 48, 48, 0.452);
+}
+
+.img-caption-another {
+   font-weight: 200;
+   letter-spacing: 3px;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+   .fifth-section {
+      background-image: url('images/mission-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      /* Adjust the height as needed */
+
+   }
+}
+
+@media (max-width: 1399.767px) {
+   .fifth-section {
+      background-image: url('images/mission-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 48vh;
+      /* Adjust the height as needed */
+      display: flex;
+      align-items: center;
+   }
+}
+
+.txt {
+   display: grid;
+   justify-content: center;
+}
+
+.large-txt {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+
+
+}
+
+.large-txt:first-child::first-letter {
+   initial-letter: 3;
+   margin-right: 2px;
+   display: flex;
+
+}
+
+.sixth-section {
+   background-color: #e9e5df;
+}
+
+.txt-2 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+
+}
+
+/*                        seventh-section                        */
+.seventh-section {
+   background-image: url('images/Layer\ 163.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: auto;
+   /* Adjust the height as needed */
+   display: flex;
+   align-items: center;
+}
+
+.invetation {
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+
+}
+
+
+.img-caption-another {
+   letter-spacing: 2px;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+   .seventh-section {
+      background-image: url('images/Layer\ 163.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      /* Adjust the height as needed */
+
+   }
+}
+
+@media (max-width: 1399.767px) {
+   .seventh-section {
+      background-image: url('images/Layer\ 163.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 48vh;
+      /* Adjust the height as needed */
+      display: flex;
+      align-items: center;
+   }
+}
+
+/*                           eight-section               */
+.large-txt-2 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+
+}
+
+.large-txt-2:first-child::first-letter {
+   initial-letter: 3;
+   margin-right: 2px;
+   display: flex;
+
+}
+
+.unorder-line {
+   display: grid;
+   justify-content: center;
+}
+
+.eight-section {
+   background-color: #d2ccbf;
+
+}
+
+.eight-seaction-container {
+   background-color: #e6e2db;
+}
+
+.img-caption-2 {
+   letter-spacing: 1px;
+   font-family: 'Maven Pro', sans-serif;
+
+}
+
+.large-txt-3 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+
+}
+
+.large-txt-3:first-child::first-letter {
+   initial-letter: 3;
+   margin-right: 2px;
+   display: flex;
+
+}
+
+/*                             night-section             */
+.night-section {
+   background-image: url('images/Layer\ 39\ copy.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: auto;
+   /* Adjust the height as needed */
+   display: flex;
+   align-items: center;
+}
+
+.invetation {
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+
+}
+
+
+
+.img-caption-another {
+   letter-spacing: 2px;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+   .night-section {
+      background-image: url('images/Layer\ 39\ copy.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      /* Adjust the height as needed */
+
+   }
+}
+
+@media (max-width: 1399.767px) {
+   .night-section {
+      background-image: url('images/Layer\ 39\ copy.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 48vh;
+      /* Adjust the height as needed */
+      display: flex;
+      align-items: center;
+   }
+}
+
+/*                            tenth-section                    */
+.middle-txt {
+   font-family: 'Maven Pro', sans-serif;
+   font-size: 66px;
+   color: #e98252;
+   font-weight: 400;
+   margin-top: -58px
+}
+
+.tenth-section-txt-first {
+   margin-top: 120px;
+}
+
+.txt-5 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+   display: grid;
+   justify-content: center;
+
+}
+
+.tenth-section {
+   background-color: #e9e5df;
+}
+
+.img-caption-another-3 {
+   letter-spacing: 5px;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+.txt-6 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+
+}
+
+.tenth-container {
+   background-color: #dbd6cb;
+}
+
+.eleventh-container {
+   background-color: #dbd6cb;
+}
+
+.unorder-line {
+   display: grid;
+   justify-content: left;
+}
+
+.tweleve-section {
+   background-color: #d3cdc0;
+
+}
+
+.txt-3 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+
+}
+
+/*                             thirteen-section             */
+.thirteen-section {
+   background-image: url('images/Layer\ 39\ copy-2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: auto;
+   /* Adjust the height as needed */
+   display: flex;
+   align-items: center;
+}
+
+.invetation {
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+
+}
+
+
+
+.img-caption-another {
+   letter-spacing: 1px;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+   .thirteen-section {
+      background-image: url('images/Layer\ 39\ copy-2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      /* Adjust the height as needed */
+
+   }
+}
+
+@media (max-width: 1399.767px) {
+   .thirteen-section {
+      background-image: url('images/Layer\ 39\ copy-2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 48vh;
+      /* Adjust the height as needed */
+      display: flex;
+      align-items: center;
+   }
+}
+
+/*                   forteen-section             */
+.forteen-section {
+   background-color: #eae6e0;
+
+}
+
+.video-setup {
+   margin-top: -170px;
+}
+
+.forteen-section-second-container {
+   margin-top: 163px;
+}
+
+.txt-7 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+   font-weight: 900;
+   display: grid;
+   text-align: center;
+
+}
+
+.txt-8 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+   font-weight: 200;
+   display: grid;
+   text-align: center;
+
+}
+
+.last-images-layer {
+   margin: 0px;
+   padding: 0px;
+}
+
+.image-last-layer {
+   background-image: url(images/download.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   max-width: 100%;
+   height: 50vh;
+}
+
+.image-last-layer-second {
+   background-image: url(images/Layer\ 162.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 50vh;
+}
+
+.image-last-layer-third {
+   background-image: url(images/Layer\ 160.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 50vh;
+}
+
+.image-last-layer-forth {
+   background-image: url(images/Layer\ 159.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 50vh;
+}
+
+.image-last-layer-fifth {
+   background-image: url(images/Layer\ 157.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 50vh;
+}
+
+.image-last-layer-sixth {
+   background-image: url(images/Layer\ 175.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 50vh;
+}
+
+/* .last-images-sizing{
+   max-width: 100%;
+   height: 50vh;
+   
+
+} */
+/* .layers-container{
+   position: relative;
+}
+.layers-container::before{
+   content: "TM BASED RESILIENCE WARRIOR PROGRAM";
+   position: absolute;
+   color: rgb(247, 246, 246);
+   font-size: 40px;
+   font-weight: 400;
+   border: solid 2px white;
+   top: px;
+   padding: 18px;
+   left: 196px;
+   background: rgba(0, 0, 0, 0.212);
+
+} */
+/*                       sicteen-seaction                  */
+.img-caption-anothe-8 {
+   font-family: 'Maven Pro', sans-serif;
+   font-weight: 700;
+}
+
+.txt-9 {
+   font-family: 'Maven Pro', sans-serif;
+   word-spacing: 2px;
+   font-weight: 200;
+   display: list-item;
+}
+
+.footer-links li a {
+   font-family: 'Maven Pro', sans-serif;
+   text-decoration: none;
+   color: rgb(242, 242, 242);
+}
+
+.footer-links li {
+   list-style: none;
+   text-decoration: white;
+
+}
+.footer-links li:hover{
+   color: #ffffff;
+
+}
+
+.footer-last-links a {
+   font-family: 'Maven Pro', sans-serif;
+   text-decoration: none;
+   color: #c8cdd6
+}
+.footer-last-links:hover{
+   color: #ffffff
+}
+.footer {
+   background-color: #304265;
+}
+
+.footer-links-area {
+   border-bottom: solid white;
+}
+
+.footer-links-area-2 {
+   border-bottom: solid rgba(255, 255, 255, 0.661);
+}
+
+.footer-last-links-another a {
+   font-family: 'Maven Pro', sans-serif;
+   text-decoration: none;
+   color: #f9f9f9
+}
+
+.footer-img {
+   max-width: 100%;
+   height: 16vh;
+}
+
+.rapper-img-caption {
+   position: relative;
+
+}
+
+.ban-txt-3 {
+   color: white;
+   text-align: center;
+   font-size: 32px;
+   /* Adjust the font size as needed */
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+   border-left: 2px solid white;
+   border-right: 2px solid white;
+   padding: 10px;
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+   text-align: center;
+   font-size: 32px;
+   background-color: rgba(48, 48, 48, 0.452);
+   position: absolute;
+   top: 0px;
+   
+
+
+}
+
+.headings {
+   font-size: 30px;
+   letter-spacing: 5px;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+.headings-2 {
+   color: solid white;
+   font-weight: 600;
+   font-size: 60px;
+   letter-spacing: 5px;
+   font-family: 'Maven Pro', sans-serif;
+   margin: 0px;
+   
+}
+
+@media (max-width: 1200.98px) {
+   .headings-2 {
+      font-size: 46px;
+   }
+}
+.hamburger__toggle{
+   display:block;
+   position: relative;
+   background-color:#3d3d3d;
+   width: 60px; 
+   height: 60px; 
+   margin:50px auto;
+   border-radius:50%;
+   border:none;
+ }
+ 
+
+ .hamburger__icon,
+ .hamburger__icon::before,
+ .hamburger__icon::after {
+   position: absolute;
+   width: 30px; 
+   height: 2px;
+   border-radius: 4px;
+   background-color: white;
+ }
+ 
+
+ .hamburger__icon {
+   top: calc(50% - 2px);
+   left: calc(50% - 15px);
+ }
+ 
+
+ .hamburger__icon::before,
+ .hamburger__icon::after {
+   content: "";
+   left: 0;
+ }
+ 
+
+ .hamburger__icon::before {
+   bottom: 8px;
+ }
+ 
+ 
+ .hamburger__icon::after {
+   top: 8px;
+ }
+
+ .hamburger__toggle:hover .hamburger__icon {
+   height: 5px;
+   width: 54px;
+   left: 5px;
+   top: calc(50% - 2px);
+   transform: rotate(-45deg);
+   background-color: red;
+ }
+ 
+
+ .hamburger__toggle:hover .hamburger__icon::after {
+   width: 54px;
+   height: 5px;
+   top: -1px;
+   transform: rotate(-270deg);
+   background-color: red;
+ }
+ 
+
+ .hamburger__toggle:hover .hamburger__icon::before {
+   transform: scale(0);
+ }
+ 
+
+ .hamburger__icon, .hamburger__icon::after {
+   transition: all 0.3s linear;
+ }
